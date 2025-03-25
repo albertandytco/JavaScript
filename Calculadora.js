@@ -7,11 +7,12 @@
 <body>
 
 	<script>
-	//código da calculadora
+	// solicitando números ao usuário
         var numero1 = prompt("Insira o primero número: ");
-		var numero2 = prompt("Insira o segundo número: ");
+	var numero2 = prompt("Insira o segundo número: ");
         var operacao = prompt("Insira um operador matemático: ");
 
+	// determinando, através do operador inserido pelo usuário, qual operação será realizada
         switch(operacao){
             case '+':
                 alert('adição');
@@ -29,7 +30,7 @@
                 alert('Operacao não definida.');
                 break;
         }
-
+	// realizando a operação com os números inseridos pelo usuário
         var resultadoOperacao = realizarOperacao(numero1, numero2, operacao); 
 
         function realizarOperacao(numero1, numero2, operacao){
@@ -37,7 +38,7 @@
             resultado = eval(numero1 + operacao + numero2);
             return resultado;
         }
-
+	// exibindo o resultado da operação realizada usando como base da estrutura condicional o operador solicitado pelo usuário
         switch(operacao){
             case '+':
                 alert('O resultado da soma é: ' + resultadoOperacao);

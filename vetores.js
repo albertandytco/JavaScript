@@ -10,8 +10,8 @@
     
     var numeros = []; 
     
-    numeros[0] = solicitaPrimeiroNumero();
-    numeros[1] = solicitaSegundoNumero();
+    numeros[0] = solicitarPrimeiroNumero();
+    numeros[1] = solicitarSegundoNumero();
     
     var resultadoDivisao = divida(numeros);
      

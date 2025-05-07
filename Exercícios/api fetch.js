@@ -5,12 +5,14 @@
     <title>Requisição XMLHttpRequest</title>
 </head>
 <body>
+
     <h1>Imagens Aleatórios de Cachorros</h1>
     <p>A partir do click no botão abaixo uma nova imagem aleatória de cachorros será carregada utilizando requisições assíncronas com XMLHttpRequest</p>
 
     <img id="img_dog" src="" alt="Aguardando a imagem ser carregada" />
     <br/>
     <button onclick="carregarImagens()">Carregar Imagens</button>
+    
 </body>
     <script type="text/javascript">
 
@@ -22,14 +24,14 @@
             })
             .then(function(response) { 
                 response.json().then(function(data){
-                    console.log('Resultado da Requisição: ' + data.message); 
+                console.log('Resultado da Requisição: ' + data.message); 
                     
-                    var imgDog = document.getElementById("img_dog");
-                    imgDog.src = data.message;
+                var imgDog = document.getElementById("img_dog");
+                imgDog.src = data.message;
                 });
             })
             .catch(function(err) { 
-                console.error('O seguinte erro ocorreu durante a requisição: ' + err);
+            console.error('O seguinte erro ocorreu durante a requisição: ' + err);
             });
         
         }

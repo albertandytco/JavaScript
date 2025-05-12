@@ -1,8 +1,8 @@
-# Projetos de Iniciante em JavaScript 🚀
+# Projetos para Iniciantes em <img  alt="Lari-Js" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">&nbsp;
 
 Bem-vindo(a) ao meu repositório de projetos de estudo em JavaScript! Aqui você encontrará uma coleção de pequenos projetos práticos. Cada projeto foi desenvolvido com o objetivo de solidificar conceitos fundamentais e apresentar diferentes formas de interação com JavaScript. 
 
-## Lista de Projetos ✨
+## Lista de Projetos 
 
 Abaixo, você encontrará uma lista dos projetos incluídos neste repositório, organizados por tema e com uma breve descrição.
 
@@ -30,13 +30,11 @@ Abaixo, você encontrará uma lista dos projetos incluídos neste repositório, 
 
 * **Exercício:** `Criar uma calculadora utilizando um switch case`
 * **Descrição:** Uma calculadora funcional que implementa as operações básicas (adição, subtração, multiplicação, divisão) utilizando a estrutura de controle `switch case` para determinar qual operação realizar.
-* ➕➖✖️➗
 
 ### 📊 Calculadora com Vetores
 
 * **Exercício:** `Criar uma calculadora utilizando Arrays` (Vetores)
 * **Descrição:** Uma abordagem diferente para construir uma calculadora, utilizando vetores para armazenar números e operações, demonstrando o uso de estruturas de dados para organizar a lógica do programa.
-* ➕➖✖️➗
 
 ## Como Executar os Projetos ⚙️
 
